@@ -31,7 +31,7 @@ $(function() {
 	    heatmap.update(); // adds the buffered points
 	    heatmap.display(); // adds the buffered points
 	    heatmap.blur();
-	    //heatmap.clamp(0.0, .9); // depending on usecase you might want to clamp it
+	    heatmap.clamp(0.0, .75); // depending on usecase you might want to clamp it
 	    raf(update);
 	}
 	raf(update);
